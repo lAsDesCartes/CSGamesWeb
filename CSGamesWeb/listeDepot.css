@@ -11,3 +11,25 @@ a{
   text-decoration: none;
   color: black;
 }
+
+li:hover{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 50px;
+  animation-name: rgb;
+  animation-duration: 5s;
+}
+
+h1:hover{
+  animation-name: rgb;
+  animation-duration: 5s;
+}
+
+@keyframes rgb {
+  0%   {background-color:red;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:red;}
+
+}
